@@ -1,0 +1,18 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: $gray-900;
+}
+li{
+    list-style: none;
+}
+body{
+    color: $gray-900;
+}

@@ -1,0 +1,19 @@
+.bgblock{
+    max-width: 296px;
+    background: $gray-100;
+}
+.andychen{
+    background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg") no-repeat center center;
+    text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+    width: 40px;
+    height: 40px;
+}
+.fs-14{
+    font-size: $font-size-base * 0.875;
+    color: $gray-600;
+}
+// .mb-26{
+//     margin-bottom: ;
+// }
