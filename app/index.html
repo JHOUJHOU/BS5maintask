@@ -4,11 +4,51 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
-<div class="ms-3">
+
+<div class="container px-2">
+    <div class="col">
+        <div class="d-flex  justify-content-between align-items-center ">
+            <div class="d-flex">
+                <h2 class="me-4 fs-4 lh-33">Assignment</h2>
+                <!-- Example split danger button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-white">All Courses</button>
+                    <button type="button" class="btn btn-white dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden btn-success">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Chapter Assignment 2</a></li>
+                    <li><a class="dropdown-item" href="#">Chapter Assignment 1</a></li>
+                    <li><a class="dropdown-item" href="#">Final Assignment</a></li>
+                    <li><a class="dropdown-item" href="#">Final Assignment</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex">
+                <span class="material-icons me-24">
+                    search
+                </span>
+                <span class="material-icons">
+                    notifications_active
+                </span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+
+        </div>
+        <div class="col-8">
+
+        </div>
+    </div>
+</div>
+<!-- <div class="ms-3">
     <div class="d-flex  justify-content-between align-items-center px-3">
         <div class="d-flex">
             <h2 class="me-4 fs-4 lh-33">Assignment</h2>
-            <!-- Example split danger button -->
+
             <div class="btn-group">
                 <button type="button" class="btn btn-white">All Courses</button>
                 <button type="button" class="btn btn-white dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
@@ -151,4 +191,4 @@ current: index
             </div>
         </div>
     </div>
-</div>
+</div> -->
