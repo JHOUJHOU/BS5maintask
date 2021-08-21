@@ -4025,7 +4025,7 @@ textarea.form-control-lg {
   .page-link:hover {
     z-index: 2;
     color: #1a1e21;
-    background-color: #e9ecef;
+    background-color: #198754;
     border-color: #dee2e6; }
   .page-link:focus {
     z-index: 3;
@@ -8760,12 +8760,8 @@ a {
 li {
   list-style: none; }
 
-.content {
-  width: 984px;
-  height: auto; }
-
 .bgblock {
-  width: 296px;
+  width: 20%;
   height: 100vh;
   background: #f8f9fa; }
 
@@ -8791,6 +8787,10 @@ li {
   color: #198754;
   border-left: 4px solid #198754; }
 
+.content {
+  width: 100%;
+  height: auto; }
+
 .me-24 {
   margin-right: 24px; }
 
@@ -8815,5 +8815,16 @@ li {
     padding-bottom: 12px;
     padding-left: 12px;
     padding-right: 16px; }
+
+.admin {
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 63px; }
+  .admin td {
+    padding-top: 19px;
+    padding-bottom: 17px; }
+    .admin td td:hover {
+      background: #f8f9fa; }
 
 /*# sourceMappingURL=all.css.map */
